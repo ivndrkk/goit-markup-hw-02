@@ -28,7 +28,7 @@ ul{
 }
 
 
-.navigation ul li a{
+.navigation-link{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -36,24 +36,24 @@ ul{
     color:#2e2f42;
 }
 
-.navigation-link-studio:hover,
-.navigation-link-studio:focus{
+.navigation-link:hover,
+.navigation-link:focus{
     color:#404bbf;
 }
 
-address{
+.header-address{
     font-style: normal;
 }
 
-.header-address ul li a{
+.header-address-link{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em
 }
 
-.header-address ul li a:hover,
-.header-address ul li a:focus{
+.header-address-link:hover,
+.header-address-link:focus{
     color:#404bbf;
 }
 
@@ -85,7 +85,7 @@ address{
     background-color: #404BBF;
 }
 
-.features ul li h3{
+.features-section-item-title{
     font-weight: 500;
     line-height: 24px;
     font-size: 20px;
@@ -93,7 +93,7 @@ address{
     color:#2e2f42;
 }
 
-.features ul li p{
+.features-section-item-text{
     font-size:16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -113,11 +113,11 @@ address{
     color: #2e2f42;
 }
 
-.team-list li{
+.team-member{
     background-color: #FFFFFF;
 }
 
-.team-list li h3{
+.team-member-name{
     font-weight: 500;
     line-height: 24px;
     font-size: 20px;
@@ -125,9 +125,7 @@ address{
     color: #2e2f42;
 }
 
-
-
-.team-list li p{
+.team-member-text{
     line-height: 24px;
     font-size: 16px;
     letter-spacing: 0.02em
